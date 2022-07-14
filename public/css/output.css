@@ -4122,6 +4122,14 @@ textarea.form-control.is-invalid {
   width: 50%;
 }
 
+.w-0 {
+  width: 0px;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -4360,6 +4368,16 @@ textarea.form-control.is-invalid {
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
