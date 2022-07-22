@@ -1,8 +1,8 @@
 
-const Login = express();
+const login = require('./login');
 
-app.use(express.json());
-app.post('/user/login', async (req, res) => {
+login.use(express.json());
+login.post('/user/login', async (req, res) => {
   const { password, username } = req.body;
   if (!password || !username) {
     res.sendStatus(400);
@@ -12,4 +12,4 @@ app.post('/user/login', async (req, res) => {
   res.send({ userId:0 });
 });
 
-module.exports = Login;
+module.exports = login;
